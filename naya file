@@ -1,1 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int totd,year,rem,month,day;
+    printf("enter the total day= ");
+    scanf("%d",&totd);
+    year= totd/365;
+    rem=totd%365;
+    month=rem/30;
+    day=rem%30;
+    printf("%d year %d month %d day",year,month,day);
+    getch();
+}
 
